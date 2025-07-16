@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans scroll-smooth">
 
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white p-4 fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">MyPortfolio</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-300">About</a></li>
+        <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+        <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center pt-20 text-center bg-gray-100">
+    <img src="images/placeholder.jpg" alt="Avatar" class="w-32 h-32 rounded-full shadow mb-4" />
+    <h2 class="text-3xl font-bold">Hi, I'm Rajesh Waghmare</h2>
+    <p class="text-lg text-gray-700 mt-2">Python Full-Stack Developer ||Web Developer(Html, CSS, JS)|| Software Designing.|| React || My SQL || Node.js ||</p>
+    <p class="italic text-blue-600 mt-2">"Kalpana se creation tak — coding ke saath."</p>
+    <a href="assets/resume.pdf" download class="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">About Me</h2>
+      <p class="mb-4">I'm a passionate BCA  with a strong interest in building web apps. I enjoy creating visually appealing, user-friendly, and functional websites.</p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Skills:</h3>
+      <ul class="flex flex-wrap gap-4">
+        <li class="bg-gray-200 px-4 py-2 rounded">HTML</li>
+        <li class="bg-gray-200 px-4 py-2 rounded">CSS</li>
+        <li class="bg-gray-200 px-4 py-2 rounded">JavaScript</li>
+        <li class="bg-gray-200 px-4 py-2 rounded">Tailwind CSS</li>
+        <li Class="bg-gray-200 px-4 py-2 rounded">Python </li>
+      </ul>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Education & Experience</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-gray-100 p-4 rounded-lg shadow">📘 BCA - SGBAU University</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow">💼 Intern @ DevTown EdTech</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Project Card -->
+        <div class="bg-white p-4 rounded shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="images/placeholder.jpg" alt="Project" class="mb-4 rounded" />
+          <h3 class="text-xl font-semibold">Project One</h3>
+          <p class="text-sm text-gray-600 mb-2">A cool web app using HTML, CSS, JS</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="images/placeholder.jpg" alt="Project" class="mb-4 rounded" />
+          <h3 class="text-xl font-semibold">Project Two</h3>
+          <p class="text-sm text-gray-600 mb-2">Simple portfolio using Tailwind</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="images/placeholder.jpg" alt="Project" class="mb-4 rounded" />
+          <h3 class="text-xl font-semibold">Project Three</h3>
+          <p class="text-sm text-gray-600 mb-2">Weather App using API</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" placeholder="Rajesh Waghmare" class="border p-2 rounded col-span-2" required />
+        <input type="email" placeholder="wrajesh267@gmail.com" class="border p-2 rounded col-span-2" required />
+        <textarea placeholder="Thank You For Watching!🙏" class="border p-2 rounded col-span-2" rows="4" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 col-span-2">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    © 2025 Rajesh Waghmare . All rights reserved.
+  </footer>
+</body>
+</html>
