@@ -1,0 +1,8 @@
+/portfolio/
+
+├── index.html
+├── /images/
+│   └── placeholder.jpg
+├── /assets/
+│   └── resume.pdf
+└── README.md
