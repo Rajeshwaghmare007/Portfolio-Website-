@@ -23,7 +23,7 @@
 
   <!-- Home Section -->
   <section id="home" class="min-h-screen flex flex-col justify-center items-center pt-20 text-center bg-gray-100">
-    <img src="images/placeholder.jpg" alt="Avatar" class="w-32 h-32 rounded-full shadow mb-4" />
+    <img src="./rajesh resume photo.jpg" alt="" class="w-32 h-32 rounded-full shadow mb-4" />
     <h2 class="text-3xl font-bold">Hi, I'm Rajesh Waghmare</h2>
     <p class="text-lg text-gray-700 mt-2">Python Full-Stack Developer ||Web Developer(Html, CSS, JS)|| Software Designing.|| React || My SQL || Node.js ||</p>
     <p class="italic text-blue-600 mt-2">"Kalpana se creation tak — coding ke saath."</p>
